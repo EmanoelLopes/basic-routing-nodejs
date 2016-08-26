@@ -3,7 +3,7 @@ module.exports = function() {
 	var app 		= express();
 
 	app.engine('pug', require('pug').renderFile);
-	app.set('views', './views');
+	app.set('views', './app/views');
 	app.set('view engine', 'pug');
 
 	return app;
