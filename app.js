@@ -1,6 +1,5 @@
 var app 			= require('./config/express')();
-var index  		= require('./routes/index')(app);
-var products 	= require('./routes/product')(app);
+var routes  	= require('./routes/routes')(app);
 var port 			= 8080;
 
 app.listen(port, function(){
