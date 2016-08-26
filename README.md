@@ -7,6 +7,12 @@ Just clone project into your machine, go to the respective folder then, run the 
 sudo npm install
 ```
 
+To start the application:
+
 ```bash
 node app.js
 ```
+
+It will provide a local server in port 3000:
+
+localhost:3000
