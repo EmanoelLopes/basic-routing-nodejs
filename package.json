@@ -10,7 +10,9 @@
   "description": "",
   "dependencies": {
     "express": "^4.14.0",
+    "express-load": "^1.1.15",
     "mocha": "^3.0.2",
+    "mysql": "^2.11.1",
     "path": "^0.12.7",
     "pug": "^2.0.0-beta5"
   }

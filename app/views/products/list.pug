@@ -1,0 +1,21 @@
+table
+	thead
+		tr
+			td id
+			td título
+			td descrição
+			td preço
+	tbody
+		-for(var i = 0; i < list.length; i++)
+			tr(id= "product#"+(i+1))
+				td= list[i].id
+				td= list[i].titulo
+				td= list[i].descricao
+				td= list[i].preco
+
+br
+a(href="/") Back to home
+
+
+
+
