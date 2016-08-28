@@ -3,7 +3,11 @@ function ProductsDB(connection) {
 }
 
 ProductsDB.prototype.list = function(callback) {
-	this._connection.query('select * from livros', callback);
+	this._connection.query('SELECT * FROM livros', callback);
+}
+
+ProductsDB.prototype.save = function(product, callback) {
+  this._connection.query('INSERT INTO livros (titulo, preco, descricao) VALUES (?, ?, ?)', [product.titulo, product.preco, product.descricao], callback);
 }
 
 module.exports = function() {

@@ -1,0 +1,21 @@
+form(action="/products/save" method="post")
+	div
+		label(for="titulo") Título
+	div
+		input(type="text", id="titulo", name="titulo", placeholder="Informe o título")
+	div
+		label(for="preco") Preço
+	div
+		input(type="text", id="preco", name="preco", placeholder="Informe o preço")
+	div
+		label(for="descricao") Descrição
+	div
+		textarea(type="text", id="descricao", name="descricao", placeholder="Descrição do produto")
+	br
+	div
+		button(type="submit") Enviar
+	br
+	div
+		a(href="/products") Voltar
+
+
