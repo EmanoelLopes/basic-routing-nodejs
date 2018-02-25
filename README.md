@@ -1,10 +1,10 @@
-# Basic Node.js routing with Express
+# Basic Node.js CRUD and routing with Express
 
-A basic config to make routes with Node.js using express and Pug as template engine.
+A basic example of CRUD and routing with Node.js using express and Pug as template engine.
 Just clone project into your machine, go to the respective folder then, run the code bellow:
 
 ```bash
-sudo npm install
+npm install
 ```
 
 To start the application:
